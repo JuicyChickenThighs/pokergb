@@ -29,7 +29,7 @@ compare: red green blue
 	@$(MD5) roms.md5
 
 clean:
-	rm -f $(roms) $(pokered_obj) $(pokeblue_obj) $(roms:.gbc=.sym)
+	rm -f $(roms) $(pokered_obj) $(pokegreen_obj) $(pokeblue_obj) $(roms:.gbc=.sym)
 	find . \( -iname '*.1bpp' -o -iname '*.2bpp' -o -iname '*.pic' \) -exec rm {} +
 
 %.asm: ;
