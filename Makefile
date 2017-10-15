@@ -6,8 +6,8 @@ MD5 := md5sum -c --quiet
 pic      := $(PYTHON) extras/pokemontools/pic.py compress
 includes := $(PYTHON) extras/pokemontools/scan_includes.py
 
-pokered_obj := audio_red.o main_red.o text_red.o wram_red.
-pokegreen_obj := audio_green.o main_green.o text_green.o wram_green.
+pokered_obj := audio_red.o main_red.o text_red.o wram_red.o
+pokegreen_obj := audio_green.o main_green.o text_green.o wram_green.o
 pokeblue_obj := audio_blue.o main_blue.o text_blue.o wram_blue.o
 
 .SUFFIXES:
