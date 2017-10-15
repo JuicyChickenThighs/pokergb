@@ -2,7 +2,7 @@ DungeonMons1:
 	db $0A
 	db 46,GOLBAT
 	db 46,HYPNO
-	db 46,MAGNETON\
+	db 46,MAGNETON
 	IF DEF(_RED) || DEF(_BLUE)
 	    db 49,DODRIO
 	ENDC
