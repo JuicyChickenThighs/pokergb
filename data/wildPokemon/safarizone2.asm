@@ -29,4 +29,5 @@ ZoneMons2:
 	ENDC
 	IF DEF(_GREEN)
 	    db 28,PINSIR
+	ENDC
 	db $00
