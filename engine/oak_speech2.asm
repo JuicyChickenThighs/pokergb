@@ -203,6 +203,22 @@ DefaultNamesRival:
 	db   "@"
 ENDC
 
+IF DEF(_GREEN)
+DefaultNamesPlayer:
+	db   "NEW NAME"
+	next "GREEN"
+	next "CASEY"
+	next "JEAN"
+	db   "@"
+
+DefaultNamesRival:
+	db   "NEW NAME"
+	next "BLUE"
+	next "ASH"
+	next "JOHN"
+	db   "@"
+ENDC
+
 IF DEF(_BLUE)
 DefaultNamesPlayer:
 	db   "NEW NAME"
@@ -253,6 +269,18 @@ DefaultNamesRivalList:
 	db "NEW NAME@"
 	db "BLUE@"
 	db "GARY@"
+	db "JOHN@"
+ENDC
+IF DEF(_GREEN)
+DefaultNamesPlayerList:
+	db "NEW NAME@"
+	db "GREEN@"
+	db "CASEY@"
+	db "JEAN@"
+DefaultNamesRivalList:
+	db "NEW NAME@"
+	db "BLUE@"
+	db "ASH@"
 	db "JOHN@"
 ENDC
 IF DEF(_BLUE)

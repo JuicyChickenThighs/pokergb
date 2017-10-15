@@ -24,5 +24,9 @@ ZoneMons2:
 	ENDC
 	db 32,VENOMOTH
 	db 26,CHANSEY
-	db 28,TAUROS
+	IF DEF(_RED) || DEF(_BLUE)
+	    db 28,TAUROS
+	ENDC
+	IF DEF(_GREEN)
+	    db 28,PINSIR
 	db $00

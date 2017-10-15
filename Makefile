@@ -6,7 +6,8 @@ MD5 := md5sum -c --quiet
 pic      := $(PYTHON) extras/pokemontools/pic.py compress
 includes := $(PYTHON) extras/pokemontools/scan_includes.py
 
-pokered_obj := audio_red.o main_red.o text_red.o wram_red.o
+pokered_obj := audio_red.o main_red.o text_red.o wram_red.
+pokegreen_obj := audio_green.o main_green.o text_green.o wram_green.
 pokeblue_obj := audio_blue.o main_blue.o text_blue.o wram_blue.o
 
 .SUFFIXES:
@@ -14,16 +15,17 @@ pokeblue_obj := audio_blue.o main_blue.o text_blue.o wram_blue.o
 .SECONDEXPANSION:
 # Suppress annoying intermediate file deletion messages.
 .PRECIOUS: %.2bpp
-.PHONY: all clean red blue compare
+.PHONY: all clean red green blue compare
 
-roms := pokered.gbc pokeblue.gbc
+roms := pokered.gbc pokegreen.gbc pokeblue.gbc
 
 all: $(roms)
 red: pokered.gbc
+green: pokegreen.gbc
 blue: pokeblue.gbc
 
 # For contributors to make sure a change didn't affect the contents of the rom.
-compare: red blue
+compare: red green blue
 	@$(MD5) roms.md5
 
 clean:
@@ -35,12 +37,17 @@ clean:
 %_red.o: dep = $(shell $(includes) $(@D)/$*.asm)
 $(pokered_obj): %_red.o: %.asm $$(dep)
 	rgbasm -D _RED -h -o $@ $*.asm
+	
+%_green.o: dep = $(shell $(includes) $(@D)/$*.asm)
+$(pokegreen_obj): %_green.o: %.asm $$(dep)
+	rgbasm -D _GREEN -h -o $@ $*.asm
 
 %_blue.o: dep = $(shell $(includes) $(@D)/$*.asm)
 $(pokeblue_obj): %_blue.o: %.asm $$(dep)
 	rgbasm -D _BLUE -h -o $@ $*.asm
 
 pokered_opt  = -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED"
+pokegreen_opt  = -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON GREEN"
 pokeblue_opt = -jsv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON BLUE"
 
 %.gbc: $$(%_obj)

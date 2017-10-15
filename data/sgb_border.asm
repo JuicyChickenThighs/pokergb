@@ -2,6 +2,9 @@ BorderPalettes:
 IF DEF(_RED)
 	INCBIN "gfx/red/sgbborder.map"
 ENDC
+IF DEF(_GREEN)
+	INCBIN "gfx/green/sgbborder.map"
+ENDC
 IF DEF(_BLUE)
 	INCBIN "gfx/blue/sgbborder.map"
 ENDC
@@ -13,6 +16,12 @@ IF DEF(_RED)
 	RGB 25,22,25
 	RGB 25,17,21
 	RGB 24,14,12
+ENDC
+IF DEF(_GREEN)
+	RGB 30,29,29 ; PAL_SGB1
+	RGB 25,31,18
+	RGB 18,25,12
+	RGB 12,20,9
 ENDC
 IF DEF(_BLUE)
 	RGB 0,0,0 ; PAL_SGB1 (the first color is not defined, but if used, turns up as 30,29,29... o_O)
@@ -27,6 +36,12 @@ IF DEF(_RED)
 	RGB 30,29,29 ; PAL_SGB2
 	RGB 22,31,16
 	RGB 27,20,6
+	RGB 15,15,15
+ENDC
+IF DEF(_GREEN)
+	RGB 30,29,29 ; PAL_SGB2
+	RGB 16,19,29
+	RGB 25,20,7
 	RGB 15,15,15
 ENDC
 IF DEF(_BLUE)
@@ -44,6 +59,12 @@ IF DEF(_RED)
 	RGB 18,21,29
 	RGB 15,15,15
 ENDC
+IF DEF(_GREEN)
+	RGB 30,29,29 ; PAL_SGB3
+	RGB 30,27,4
+	RGB 29,18,20
+	RGB 15,15,15
+ENDC
 IF DEF(_BLUE)
 	RGB 30,29,29 ; PAL_SGB3
 	RGB 12,15,11
@@ -56,6 +77,9 @@ ENDC
 SGBBorderGraphics:
 IF DEF(_RED)
 	INCBIN "gfx/red/sgbborder.2bpp"
+ENDC
+IF DEF(_GREEN)
+	INCBIN "gfx/green/sgbborder.2bpp"
 ENDC
 IF DEF(_BLUE)
 	INCBIN "gfx/blue/sgbborder.2bpp"

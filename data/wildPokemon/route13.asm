@@ -1,5 +1,5 @@
 Route13Mons:
-	IF DEF(_RED)
+	IF DEF(_RED) || DEF(_GREEN)
 		db $14
 		db 24,ODDISH
 		db 25,PIDGEY
