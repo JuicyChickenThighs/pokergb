@@ -387,9 +387,13 @@ CopyrightTextString:
 
 INCLUDE "data/title_mons.asm"
 
-; prints version text (red, blue)
+; prints version text (red, green, blue)
 PrintGameVersionOnTitleScreen:
+IF DEF(_GREEN)
+	coord hl, 6, 8
+ELSE
 	coord hl, 7, 8
+ENDC
 	ld de, VersionOnTitleScreenText
 	jp PlaceString
 
