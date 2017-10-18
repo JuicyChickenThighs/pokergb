@@ -15,7 +15,7 @@ TradeMons:
 	IF DEF(_GREEN)
 	    db RHYDON,    KANGASKHAN,0,"POUCHO@@@@@"
 	    db JIGGLYPUFF,MR_MIME,  0,"MASON@@@@@@"
-	    db BUTTERFREE,BEEDRILL, 2,"CHIKUCHIKU@"
+	    db PIDGEOTTO, RATICATE, 2,"JERRY@@@@@@"
 	    db GROWLITHE, KRABBY,   0,"PINCHY@@@@@"
 	    db PIDGEY,    FARFETCHD,2,"SWON@@@@@@@"
 	    db PERSIAN,   TAUROS,   0,"BULLOX@@@@@"
