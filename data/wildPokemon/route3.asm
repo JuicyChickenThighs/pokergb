@@ -1,9 +1,19 @@
 Route3Mons:
 	db $14
 	db 6,PIDGEY
-	db 5,SPEAROW
+	IF DEF(_RED) || DEF(_BLUE)
+	    db 5,SPEAROW
+	ENDC
+	IF DEF(_GREEN)
+	    db 3,SPEAROW
+	ENDC
 	db 7,PIDGEY
-	db 6,SPEAROW
+	IF DEF(_RED) || DEF(_BLUE)
+	    db 6,SPEAROW
+	ENDC
+	IF DEF(_GREEN)
+	    db 5,SPEAROW
+	ENDC
 	db 7,SPEAROW
 	db 8,PIDGEY
 	db 8,SPEAROW

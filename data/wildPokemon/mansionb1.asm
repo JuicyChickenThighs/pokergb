@@ -12,6 +12,18 @@ MansionMonsB1:
 		db 42,WEEZING
 		db 42,MUK
 	ENDC
+	IF DEF(_GREEN)
+		db 35,GRIMER
+		db 38,GRIMER
+		db 35,GROWLITHE
+		db 32,PONYTA
+		db 35,KOFFING
+		db 40,MUK
+		db 34,PONYTA
+		db 35,KOFFING
+		db 40,MUK
+		db 42,WEEZING
+	ENDC
 	IF DEF(_BLUE)
 		db 33,GRIMER
 		db 31,GRIMER

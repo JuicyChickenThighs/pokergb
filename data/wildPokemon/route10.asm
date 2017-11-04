@@ -12,7 +12,7 @@ Route10Mons:
 		db 13,EKANS
 		db 17,EKANS
 	ENDC
-	IF DEF(_BLUE)
+	IF DEF(_GREEN) || DEF(_BLUE)
 		db 16,VOLTORB
 		db 16,SPEAROW
 		db 14,VOLTORB

@@ -1,6 +1,6 @@
 Route12Mons:
 	db $0F
-	IF DEF(_RED)
+	IF DEF(_RED) || DEF(_GREEN)
 		db 24,ODDISH
 		db 25,PIDGEY
 		db 23,PIDGEY
