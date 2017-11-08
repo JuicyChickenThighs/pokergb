@@ -1,6 +1,6 @@
 TradeMons:
 ; givemonster, getmonster, textstring, nickname (11 bytes), 14 bytes total
-    IF DEF(_RED) || DEF(_BLUE)
+    IF DEF(_RED)
 	    db NIDORINO,  NIDORINA, 0,"TERRY@@@@@@"
 	    db ABRA,      MR_MIME,  0,"MARCEL@@@@@"
 	    db BUTTERFREE,BEEDRILL, 2,"CHIKUCHIKU@"
@@ -13,14 +13,26 @@ TradeMons:
 		db NIDORAN_M, NIDORAN_F,2,"SPOT@@@@@@@"
 	ENDC
 	IF DEF(_GREEN)
-	   	db RHYDON,    KANGASKHAN,0,"TERRY@@@@@@"
-	    db JIGGLYPUFF,MR_MIME,   0,"MARCEL@@@@@"
+	   	db RHYDON,    KANGASKHAN,0,"KASSANDRA@@"
+	    db JIGGLYPUFF,MR_MIME,   0,"MASON@@@@@@"
 	    db BUTTERFREE,BEEDRILL,  2,"CHIKUCHIKU@"
-	    db GROWLITHE, KRABBY,    0,"SAILOR@@@@@"
+	    db GROWLITHE, KRABBY,    0,"PINCHER@@@@"
 	    db PIDGEY,    FARFETCHD, 2,"DUX@@@@@@@@"
-	    db PERSIAN,   TAUROS,    0,"MARC@@@@@@@"
+	    db PERSIAN,   TAUROS,    0,"BULLOX@@@@@"
 	    db MACHOKE,   HAUNTER,   1,"SPECTRE@@@@"
 	    db KADABRA,   GRAVELER,  1,"ROCKY@@@@@@"
 	    db SEEL,      SLOWPOKE,  2,"SLOWMO@@@@@"
 	    db RATTATA,   POLIWAG,   2,"SPOT@@@@@@@"
+    ENDC
+		IF DEF(_BLUE)
+	   	db WEEPINBELL,VENOMOTH,  0,"FLUTTERS@@@"
+	    db CLEFAIRY,  MR_MIME,   0,"MIIKO@@@@@@"
+	    db BUTTERFREE,BEEDRILL,  2,"CHIKUCHIKU@"
+	    db VULPIX,    HORSEA,    0,"SEHOA@@@@@@"
+	    db ZUBAT,     FARFETCHD, 2,"DUX@@@@@@@@"
+	    db POLIWHIRL, RAICHU,    0,"RAICHEEK@@@"
+	    db GRAVELER,  KADABRA,   1,"HOCUS@@@@@@"
+	    db PIDGEOTTO, RATICATE,  1,"CHEWY@@@@@@"
+	    db PSYDUCK,   GOLDEEN,   2,"SEALION@@@@"
+	    db SPEAROW,   TENACOOL,  2,"TENTEAL@@@@"
     ENDC
