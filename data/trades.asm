@@ -24,7 +24,7 @@ TradeMons:
 	    db SEEL,      SLOWPOKE,  2,"SLOWMO@@@@@"
 	    db RATTATA,   POLIWAG,   2,"SPOT@@@@@@@"
     ENDC
-		IF DEF(_BLUE)
+	IF DEF(_BLUE)
 	   	db WEEPINBELL,VENOMOTH,  0,"FLUTTERS@@@"
 	    db CLEFAIRY,  MR_MIME,   0,"MIIKO@@@@@@"
 	    db BUTTERFREE,BEEDRILL,  2,"CHIKUCHIKU@"
