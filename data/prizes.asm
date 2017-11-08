@@ -22,8 +22,8 @@ IF DEF(_GREEN)
 	db HORSEA
 ENDC
 IF DEF(_BLUE)
-    db CLEFAIRY
-	db NIDORINO
+    db JIGGLYPUFF
+	db CUBONE
 ENDC
 	db "@"
 
