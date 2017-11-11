@@ -5,8 +5,8 @@ This is a disassembly of Pokémon Red, Green and Blue.
 It builds the following roms:
 
 * Pokemon Red (UE) [S][!].gb  `md5: 3d45c1ee9abd5738df46d2bdda8b57dc`
-* Pokemon Green (UE) [S][!].gb`md5: 5addd2fdc89d9c6b8bce37086d7edf9a`
-* Pokemon Blue (UE) [S][!].gb `md5: 50927e843568814f7ed45ec4f944bd8b`
+* Pokemon Green (UE) [S][!].gb`md5: 787df5ffa3cd64617e6c567b8a09e6d5`
+* Pokemon Blue (UE) [S][!].gb `md5: 8ad6477e54eba492a198e391dd647303`
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
