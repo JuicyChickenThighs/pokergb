@@ -34,3 +34,9 @@ NOTE: This is a modified version of GitHub user Pret's disassembly.
 [pokeemerald]: https://github.com/pret/pokeemerald
 [Discord]: https://discord.gg/cJxDDVP
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
+
+## My own projects
+
+* Disassembly and Expansion of [**PokéBundle**][pokeredextended]
+
+[pokeredextended]:  https://github.com/RonaldMcFrickinDonald/pokeredextended
