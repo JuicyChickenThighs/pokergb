@@ -15,7 +15,7 @@ IslandMons1:
 	IF DEF(_GREEN)
 		db 30,SEEL
 		db 30,HORSEA
-		db 30,HORSEA
+		db 30,STARYU
 		db 30,KRABBY
 		db 28,KRABBY
 		db 21,ZUBAT
