@@ -64,7 +64,15 @@ OakSpeech:
 	call PrintText
 	call GBFadeOutToWhite
 	call ClearScreen
+IF DEF(_RED)
 	ld a,NIDORINO
+ENDC
+IF DEF(_GREEN)
+    ld a,OMASTAR
+ENDC
+IF DEF(_BLUE)
+    ld a,JIGGLYPUFF
+ENDC
 	ld [wd0b5],a
 	ld [wcf91],a
 	call GetMonHeader
@@ -157,7 +165,15 @@ OakSpeechText1:
 	db "@"
 OakSpeechText2:
 	TX_FAR _OakSpeechText2A
+IF DEF(_RED)
 	TX_CRY_NIDORINA
+ENDC
+IF DEF(_GREEN)
+    TX_CRY_KABUTOPS
+ENDC
+IF DEF(_BLUE)
+    TX_CRY_CLEFAIRY
+ENDC
 	TX_FAR _OakSpeechText2B
 	db "@"
 IntroducePlayerText:
