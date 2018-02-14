@@ -1,6 +1,8 @@
 # Pokémon Red, Green and Blue
 
-This is a disassembly of Pokémon Red and Blue (with a fan-made Green.).
+[CURRENT VERSION ON GITHUB IS UNOFFICIAL, SO MD5 CHECKSUMS ARE OUTDATED.]
+
+This is a revision of Pokémon Red and Blue (with a fan-made Green.).
 
 It builds the following roms:
 
@@ -19,7 +21,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 * Disassembly of [**Pokémon Pinball**][pokepinball]
 * Disassembly of [**Pokémon TCG**][poketcg]
 * Disassembly of [**Pokémon Ruby and Sapphire**][pokeruby]
-* Disassembly of [**Pokémon FireRed and LeafGreen**][pokefirered]
+* Disassembly of [**Pokémon Fire Red**][pokefirered]
 * Disassembly of [**Pokémon Emerald**][pokeemerald]
 * Discord: [**pret**][Discord]
 * irc: **irc.freenode.net** [**#pret**][irc]
