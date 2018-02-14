@@ -1,6 +1,6 @@
 # Pokémon Red, Green and Blue
 
-[CURRENT VERSION ON GITHUB IS UNOFFICIAL, SO MD5 CHECKSUMS ARE OUTDATED.]
+[**CURRENT VERSION ON GITHUB IS UNOFFICIAL, SO .MD5 CHECKSUMS ARE OUTDATED.**]
 
 This is a revision of Pokémon Red and Blue (with a fan-made Green.).
 
