@@ -12,7 +12,7 @@ It builds the following roms:
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
-## See also
+## See Pret's other disassemblies:
 
 * Disassembly of [**Pokémon Red and Blue**][pokered]
 * Disassembly of [**Pokémon Yellow**][pokeyellow]
