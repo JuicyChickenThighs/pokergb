@@ -1,6 +1,6 @@
 # Pokémon Red, Green and Blue
 
-This is a disassembly of Pokémon Red, Green and Blue.
+This is a disassembly of Pokémon Red and Blue (with a fan-made Green.).
 
 It builds the following roms:
 
@@ -10,33 +10,28 @@ It builds the following roms:
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
-NOTE: This is a modified version of GitHub user Pret's disassembly.
-      Check out his original disassembly first:
-	  * Disassembly of [**Pokémon Red and Blue**][pokered]
-	  
 ## See also
 
+* Disassembly of [**Pokémon Red and Blue**][pokered]
 * Disassembly of [**Pokémon Yellow**][pokeyellow]
+* Disassembly of [**Pokémon Gold and Silver**][pokegold]
 * Disassembly of [**Pokémon Crystal**][pokecrystal]
 * Disassembly of [**Pokémon Pinball**][pokepinball]
 * Disassembly of [**Pokémon TCG**][poketcg]
-* Disassembly of [**Pokémon Ruby**][pokeruby]
+* Disassembly of [**Pokémon Ruby and Sapphire**][pokeruby]
+* Disassembly of [**Pokémon FireRed and LeafGreen**][pokefirered]
 * Disassembly of [**Pokémon Emerald**][pokeemerald]
 * Discord: [**pret**][Discord]
 * irc: **irc.freenode.net** [**#pret**][irc]
 
 [pokered]: https://github.com/pret/pokered
 [pokeyellow]: https://github.com/pret/pokeyellow
+[pokegold]: https://github.com/pret/pokegold
 [pokecrystal]: https://github.com/pret/pokecrystal
 [pokepinball]: https://github.com/pret/pokepinball
 [poketcg]: https://github.com/pret/poketcg
 [pokeruby]: https://github.com/pret/pokeruby
+[pokefirered]: https://github.com/pret/pokefirered
 [pokeemerald]: https://github.com/pret/pokeemerald
 [Discord]: https://discord.gg/cJxDDVP
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
-
-## My own projects
-
-* Disassembly and Expansion of [**PokéBundle**][pokeredextended]
-
-[pokeredextended]:  https://github.com/RonaldMcFrickinDonald/pokeredextended
