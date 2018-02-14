@@ -37,3 +37,9 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 [pokeemerald]: https://github.com/pret/pokeemerald
 [Discord]: https://discord.gg/cJxDDVP
 [irc]: https://kiwiirc.com/client/irc.freenode.net/?#pret
+
+## My own disassemblies:
+
+* Recreation of [**Pokémon Red and Green Beta**][pokeredextended]
+
+[pokeredextended]: https://github.com/RonaldMcFrickinDonald/pokeredextended
