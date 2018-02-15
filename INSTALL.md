@@ -23,7 +23,7 @@ To build them individually:
 	
 To build them in pairs:
 
-      make red green
+    make red green
 	make red blue
 	make green red
 	make green blue
@@ -76,7 +76,7 @@ To build them individually:
 
 To build them in pairs:
 
-      make red green
+    make red green
 	make red blue
 	make green red
 	make green blue
