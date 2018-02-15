@@ -14,13 +14,13 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 ## See Pret's other disassemblies:
 
-* Disassembly of [**Pokémon Red and Blue**][pokered]
+* Disassembly of [**Pokémon Red/Blue**][pokered]
 * Disassembly of [**Pokémon Yellow**][pokeyellow]
-* Disassembly of [**Pokémon Gold and Silver**][pokegold]
+* Disassembly of [**Pokémon Gold/Silver**][pokegold]
 * Disassembly of [**Pokémon Crystal**][pokecrystal]
 * Disassembly of [**Pokémon Pinball**][pokepinball]
 * Disassembly of [**Pokémon TCG**][poketcg]
-* Disassembly of [**Pokémon Ruby and Sapphire**][pokeruby]
+* Disassembly of [**Pokémon Ruby/Sapphire**][pokeruby]
 * Disassembly of [**Pokémon Fire Red**][pokefirered]
 * Disassembly of [**Pokémon Emerald**][pokeemerald]
 * Discord: [**pret**][Discord]
