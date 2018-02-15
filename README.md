@@ -41,6 +41,6 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 ## My own disassemblies:
 
 **SOON**
-* Recreation of [**Pokémon Red and Green Beta**][pokeredbeta]
+* Recreation of [**Pokémon Red/Green Beta**][pokeredbeta]
 
-[pokeredbeta]: https://github.com/MimicYou/pokeredextended
+[pokeredbeta]: https://github.com/MimicYou/pokeredbeta
