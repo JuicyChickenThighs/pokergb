@@ -40,6 +40,7 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 ## My own disassemblies:
 
+**SOON**
 * Recreation of [**Pokémon Red and Green Beta**][pokeredextended]
 
 [pokeredextended]: https://github.com/RonaldMcFrickinDonald/pokeredextended
