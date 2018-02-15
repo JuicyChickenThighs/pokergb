@@ -8,8 +8,8 @@
 	sudo make install
 	cd ..
 
-	git clone --recursive https://github.com/pret/pokered
-	cd pokered
+	git clone --recursive https://github.com/RonaldMcFrickinDonald/starterpak
+	cd starterpak
 
 To build **pokered.gbc**, **pokegreen.gbc** and **pokeblue.gbc**:
 
@@ -20,6 +20,15 @@ To build them individually:
 	make red
 	make green
 	make blue
+	
+To build them in pairs:
+
+        make red green
+	make red blue
+	make green red
+	make green blue
+	make blue red
+	make blue green
 
 
 # Mac
@@ -31,8 +40,8 @@ Then in **Terminal**, run:
 	xcode-select --install
 	brew install rgbds
 
-	git clone --recursive https://github.com/RonaldMcFrickinDonald/pokered
-	cd pokered
+	git clone --recursive https://github.com/RonaldMcFrickinDonald/starterpak
+	cd starterpak
 
 	make
 
@@ -51,7 +60,25 @@ Extract the archive. Inside should be `rgbasm.exe`, `rgblink.exe`, `rgbfix.exe`,
 
 In the **Cygwin terminal**:
 
-	git clone --recursive https://github.com/RonaldMcFrickinDonald/pokered
-	cd pokered
+	git clone --recursive https://github.com/RonaldMcFrickinDonald/starterpak
+	cd starterpak
+	
+	git submodule init
+	git submodule update
 
 	make
+
+To build them individually:
+
+	make red
+	make green
+	make blue
+
+To build them in pairs:
+
+        make red green
+	make red blue
+	make green red
+	make green blue
+	make blue red
+	make blue green
