@@ -6,9 +6,9 @@ This is a revision of Pokémon Red and Blue (with a fan-made Green.).
 
 It builds the following roms:
 
-* Pokemon Red (UE) [S][!].gb  `md5: 3d45c1ee9abd5738df46d2bdda8b57dc`
-* Pokemon Green (UE) [S][!].gb`md5: 787df5ffa3cd64617e6c567b8a09e6d5`
-* Pokemon Blue (UE) [S][!].gb `md5: 8ad6477e54eba492a198e391dd647303`
+* Pokémon Red (UE) [S][!].gb  `md5: 3d45c1ee9abd5738df46d2bdda8b57dc`
+* Pokémon Green (UE) [S][!].gb`md5: 787df5ffa3cd64617e6c567b8a09e6d5`
+* Pokémon Blue (UE) [S][!].gb `md5: 8ad6477e54eba492a198e391dd647303`
 
 To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
@@ -41,6 +41,6 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 ## My own disassemblies:
 
 **SOON**
-* Recreation of [**Pokémon Red and Green Beta**][pokeredextended]
+* Recreation of [**Pokémon Red and Green Beta**][pokeredbeta]
 
-[pokeredextended]: https://github.com/RonaldMcFrickinDonald/pokeredextended
+[pokeredbeta]: https://github.com/MimicYou/pokeredextended
