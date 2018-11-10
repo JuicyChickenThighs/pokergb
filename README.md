@@ -1,6 +1,6 @@
 # Pokémon Red, Green and Blue
 
-[**CURRENT VERSION ON GITHUB IS UNOFFICIAL, SO .MD5 CHECKSUMS ARE OUTDATED.**]
+[**CURRENT BUILD IS OUTDATED.**]
 
 This is a revision of Pokémon Red and Blue (with a fan-made Green.).
 
@@ -40,7 +40,3 @@ To set up the repository, see [**INSTALL.md**](INSTALL.md).
 
 ## My own disassemblies:
 
-**SOON**
-* Recreation of [**Pokémon Red/Green Beta**][pokeredbeta]
-
-[pokeredbeta]: https://github.com/MimicYou/pokeredbeta
